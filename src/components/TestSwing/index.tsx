@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { initialComponentProps, useAccelerometer } from '@components/TestSwing/handlers';
 import { TestSwing } from '@components/TestSwing/TestSwing';
