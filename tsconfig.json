@@ -2,7 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "outDir": "./dist/",
+    "outDir": "./docs/",
     "noImplicitAny": true,
     "module": "ES2015",
     "target": "ES5",
@@ -20,7 +20,7 @@
   },
   "exclude": [
     "node_modules",
-    "dist",
+    "docs",
     "./tests/cypress",
     "./cypress.config.ts",
   ]
