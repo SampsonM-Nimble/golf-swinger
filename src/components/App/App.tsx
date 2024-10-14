@@ -11,7 +11,7 @@ export const App = (): JSX.Element => (
     <h2>Hello App</h2>
     <BrowserRouter>
       <nav className="routingWrapper">
-        <b>?: </b>
+        <b>links: </b>
         <Link to="/">Hello component</Link>
         <Link to="/world">World component</Link>
       </nav>
