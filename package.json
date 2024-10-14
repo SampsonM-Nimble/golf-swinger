@@ -19,7 +19,8 @@
     "test:cypress:open": "cypress open"
   },
   "hooks": {
-    "pre-commit": "npm run lint && npm run test:jest"
+    "pre-commit": "npm run lint && npm run test:jest",
+    "pre-push": "npm run build && git add docs"
   },
   "repository": {
     "type": "git",
